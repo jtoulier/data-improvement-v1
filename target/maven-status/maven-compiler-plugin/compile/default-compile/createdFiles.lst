@@ -2,6 +2,7 @@ com\reto2\dataimprovementv1\DataImprovementV1Application.class
 com\reto2\dataimprovementv1\repository\entity\ProductImprovementEntity.class
 com\reto2\dataimprovementv1\repository\ProductImprovementRepository.class
 com\reto2\dataimprovementv1\controller\CustomerProductImprovementController.class
+com\reto2\dataimprovementv1\controller\ProductImprovementController.class
 com\reto2\dataimprovementv1\repository\entity\CustomerProductImprovementEntity.class
 com\reto2\dataimprovementv1\repository\entity\key\ProductImprovementEntityKey.class
 com\reto2\dataimprovementv1\repository\CustomerProductImprovementRepository.class
