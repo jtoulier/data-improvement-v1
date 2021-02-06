@@ -6,7 +6,6 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
-import javax.persistence.criteria.CriteriaBuilder;
 import java.io.Serializable;
 
 @Data

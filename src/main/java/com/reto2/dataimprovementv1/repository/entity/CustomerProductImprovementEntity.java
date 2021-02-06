@@ -6,8 +6,8 @@ import javax.persistence.*;
 import javax.persistence.criteria.CriteriaBuilder;
 
 @Entity
-@Getter
-@Setter
+@Data
+@AllArgsConstructor
 @NoArgsConstructor
 @Table(schema = "improvement", name = "customer_product_improvement")
 public class CustomerProductImprovementEntity {
@@ -28,10 +28,4 @@ public class CustomerProductImprovementEntity {
     @Column(name = "description")
     private String description;
 
-    public CustomerProductImprovementEntity(String cic, String tioAux, Short productImprovementId, String description) {
-        this.cic = cic;
-        this.tioAux = tioAux;
-        this.productImprovementId = productImprovementId;
-        this.description = description;
-    }
 }
